@@ -1,0 +1,5 @@
+include dash_flow_example/bundle.js
+include dash_flow_example/bundle.js.map
+include dash_flow_example/metadata.json
+include README.md
+include LICENSE.md
