@@ -83,6 +83,11 @@ ExampleReactComponent.propTypes = {
     }),
 
     /**
+     * A wildcard encrypted attribute
+     */
+    'encrypted_*': PropTypes.string,
+
+    /**
      * Dash-assigned callback that should be called whenever any of the
      * properties change
      */
