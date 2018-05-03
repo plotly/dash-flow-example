@@ -1,5 +1,18 @@
 import * as React from 'react';
 
+type T_OPTION = {
+  /** The label of the option */
+  label: string | number,
+  /** The value of the option*/
+  value: string,
+};
+type T_CONFIG = {
+  /** The title option */
+  title: string | number,
+  /** The value of the option */
+  value: string
+};
+
 type Props = {
     /**
      * The ID used to identify this compnent in Dash callbacks
@@ -14,8 +27,13 @@ type Props = {
     /**
      * The value displayed in the input
      */
-    value: string,
+    value?: string,
 
+    /** A list of options */
+    options?: Array<T_OPTION>,
+
+    /** A config object */
+    config?: T_CONFIG,
 }
 
 /**
