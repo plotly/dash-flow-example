@@ -1,6 +1,6 @@
 {
   "name": "dash-flow-example",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Example of a Dash library that uses Flow Types",
   "main": "lib/index.js",
   "repository": {
